@@ -1,4 +1,3 @@
-import React from "react";
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -11,7 +10,7 @@ export default function Navbar() {
         {/* Navigation Links */}
         <ul className="flex gap-3">
           <li>
-            <Link href="/about" className="hover:underline cursor-pointer">About Me</Link>
+            <Link href="/about_me" className="hover:underline cursor-pointer">About Me</Link>
           </li>
           <li className="hover:underline cursor-pointer">|</li>
           <li>
